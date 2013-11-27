@@ -1,4 +1,8 @@
 cookbook 'sprout-butler',
   :path => '.'
 
+cookbook 'sprout-osx-base',
+  :git => 'git://github.com/pivotal-sprout/sprout.git',
+  :path => 'sprout-osx-base'
+
 site 'http://community.opscode.com/api/v1'

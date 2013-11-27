@@ -1,4 +1,5 @@
 include_recipe 'sprout-butler::install'
+include_recipe "sprout-osx-base::addloginitem"
 
 execute "Start Butler on login" do
   command "addloginitem /Applications/Butler.app"

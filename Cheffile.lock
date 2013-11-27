@@ -3,12 +3,22 @@ SITE
   specs:
     dmg (2.0.8)
 
+GIT
+  remote: git://github.com/pivotal-sprout/sprout.git
+  path: sprout-osx-base
+  ref: master
+  sha: 1c86456712112273d8737a1744859eb3adb6ca86
+  specs:
+    sprout-osx-base (0.1.0)
+
 PATH
   remote: .
   specs:
     sprout-butler (0.1.0)
       dmg (>= 0.0.0)
+      sprout-osx-base (>= 0.0.0)
 
 DEPENDENCIES
   sprout-butler (>= 0)
+  sprout-osx-base (>= 0)
 
