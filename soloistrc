@@ -1,0 +1,7 @@
+recipes:
+  - sprout-butler
+
+node_attributes:
+  sprout:
+    butler:
+      open_on_startup: true

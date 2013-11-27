@@ -1,0 +1,14 @@
+SITE
+  remote: http://community.opscode.com/api/v1
+  specs:
+    dmg (2.0.8)
+
+PATH
+  remote: .
+  specs:
+    sprout-butler (0.1.0)
+      dmg (>= 0.0.0)
+
+DEPENDENCIES
+  sprout-butler (>= 0)
+

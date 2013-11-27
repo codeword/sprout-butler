@@ -1,0 +1,4 @@
+cookbook 'sprout-butler',
+  :path => '.'
+
+site 'http://community.opscode.com/api/v1'
